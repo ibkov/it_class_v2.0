@@ -30,3 +30,7 @@ six==1.15.0
 smmap==3.0.4
 sqlparse==0.4.1
 urllib3==1.26.2
+djangorestframework==3.12.4
+markdown==3.3.4
+django-filter==2.4.0
+djoser==2.1.0
