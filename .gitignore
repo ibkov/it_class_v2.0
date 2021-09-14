@@ -1,3 +1,5 @@
 venv
 .idea
 *.pyc
+mainapp/migrations/0012_auto_20210914_2230.py
+daytask/migrations/0005_auto_20210914_2230.py
