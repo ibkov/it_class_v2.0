@@ -42,13 +42,12 @@ INSTALLED_APPS = [
     'crispy_forms',
     'bootstrap4',
     'tinymce',
-    'daytask',
+    'daytask.apps.DaytaskConfig',
     'ckeditor',
     'rest_framework',
     'djoser',
     'rest_framework.authtoken',
 ]
-
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',

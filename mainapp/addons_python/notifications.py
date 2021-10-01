@@ -43,12 +43,12 @@ def send_mail_to_applicant(theme_letter, header_letter, text_letter, recipients_
         finally:
             print(msg)
             s.quit()
-
 # функция отправки сообщений в телеграмм канал {"ok":true,"result":{"message_id":3,"chat":{"id":-1001380508914,"title":"\u0418\u0442-\u043a\u043b\u0430\u0441\u0441","username":"it_class1158","type":"channel"},"date":1595839792,"text":"test"}}
 def send_telegram(text: str):
-    token = "1098094286:AAEAKeTsr0GDh8LlxW_M0O2zQhPMy_wW1tg"
+    token = "1098094286:AAGmN7YpguBfJOiPgXLyx-OtPW15pQ76ESU"
     url = "https://api.telegram.org/bot"
-    channel_id = "-1001380508914"
+    #channel_id = "-1001380508914" - основной канал
+    channel_id = -1001134619840 #тестовый канал
     url += token
     method = url + "/sendMessage"
 
